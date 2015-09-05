@@ -239,7 +239,9 @@ nav {
 //
 // .main
 //
-
+#main {
+    min-height: 500px;
+}
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -247,6 +249,9 @@ nav {
 
 .post .entry{
     font-size: 16px;
+}
+.post .entry p, .page .entry p{
+    text-indent: 2em;
 }
 
 .post-date {
@@ -288,8 +293,9 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
+  font-size:14px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
